@@ -1,0 +1,49 @@
+.header{
+    background: rgb(236, 234, 91);
+    position: relative;
+}
+
+.header .logo{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+}
+.header .logo img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.header .logo2{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+.header .logo2 img{
+    height: 100%;
+    width: 100%;
+}
+.header marquee{
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    background: lightyellow;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:768px){
+.header .logo2{
+    display: none;
+}
+}
+
+
